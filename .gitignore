@@ -1,0 +1,29 @@
+# 数据：体积大且可重新获取，不入库
+#   _raw/       32 个 .rar，5.0 GiB
+#   extracted/  2560 个 .mat，21 GiB
+Data/paderborn/_raw/
+Data/paderborn/extracted/
+# CWRU 若用软链/硬链指到 v6/Data，这里兜底
+Data/cwru/
+
+# 运行产物
+logs/
+outputs/train/
+outputs/**/train/
+*.log
+
+# 特征缓存：cwru.npy（67MB）与 paderborn 分卷直接入库；
+# paderborn.npy（234MB）超 GitHub 100MB 限制不入库，云端由 run_cloud.sh 从分卷自动合并
+outputs/features/paderborn.npy
+
+# 杂项
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# 入库清单（务必随仓库带上）：
+#   *.py / scripts/ / docs/ / requirements.txt
+#   Data/ 若不放数据，至少保留本 .gitignore 说明获取方式

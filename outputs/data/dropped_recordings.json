@@ -1,0 +1,9 @@
+[
+  {
+    "record_key": "KA08/N15_M01_F10_KA08_2.mat::vibration_1",
+    "unit_key": "KA08/N15_M01_F10",
+    "path": "E:\\文献\\近两三年的故障诊断文献\\rbop_diagnosis_v7\\Data\\paderborn\\extracted\\KA08\\N15_M01_F10_KA08_2.mat",
+    "filename": "N15_M01_F10_KA08_2.mat",
+    "reason": "官方截断并补零，scipy.loadmat 无法加载；按 D12 整条丢弃"
+  }
+]

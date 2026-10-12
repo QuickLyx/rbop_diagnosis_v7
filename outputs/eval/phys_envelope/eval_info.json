@@ -1,0 +1,15 @@
+{
+  "arm": "phys_envelope",
+  "protocol": "v7_stage2",
+  "generated_at": "2026-10-13T03:41:49",
+  "evaluation_scope": "zero_shot_all_primary",
+  "trained": false,
+  "frozen_budgets": [
+    19,
+    38,
+    116
+  ],
+  "note": "零训练物理规则：无参数估计、无目标域适配、非 transductive；标签只用于最后评分，不进入任何预测判断",
+  "inference": "eval/no_grad；无训练、梯度更新或 BN 重估",
+  "supervised_pool_units": []
+}

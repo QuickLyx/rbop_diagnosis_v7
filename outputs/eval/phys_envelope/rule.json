@@ -1,0 +1,21 @@
+{
+  "protocol": "v7_stage2",
+  "band_hz": [
+    2000.0,
+    5000.0
+  ],
+  "filter_order": 4,
+  "target_fs": 12000,
+  "harmonics": 5,
+  "tolerance_hz": 2.0,
+  "floor_band_hz": [
+    0.0,
+    500.0
+  ],
+  "dominance_ratio": 1.5,
+  "classification": "BPFO > 1.5*BPFI 判 OR；BPFI > 1.5*BPFO 判 IR；否则判 Normal",
+  "aggregation": "记录预测转为四类 one-hot；单元内记录概率等权均值",
+  "information": "使用完整原始记录的包络谐波比，不是深度模型逐窗标准化的谱形特征",
+  "label_usage": "标签只用于最后评分；不估计阈值、不调带、不选谐波",
+  "training": "零训练：不估计参数、不适配目标数据、非 transductive"
+}

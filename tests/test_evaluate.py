@@ -3,7 +3,7 @@
 from copy import deepcopy
 import csv
 import json
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 import sys
 import tempfile
 from types import SimpleNamespace
@@ -217,6 +217,16 @@ class EvaluateTests(unittest.TestCase):
             mutation(invalid)
             with self.assertRaises(ValueError):
                 aggregate_units(invalid)
+
+    def test_cw_unit_identity_accepts_windows_paths_under_linux_semantics(self):
+        rows = cw_predictions()
+        for row in rows:
+            row["path"] = "E:\\冻结缓存\\B007_0.mat"
+        with patch("evaluate.Path", PurePosixPath):
+            self.assertEqual(aggregate_units(rows)[0]["unit_key"], "12k_DE/B007_0.mat")
+            rows[0]["path"] = "E:\\冻结缓存\\wrong.mat"
+            with self.assertRaisesRegex(ValueError, "通道"):
+                aggregate_units(rows)
 
     def test_inference_eval_no_grad_state_unchanged_and_tuple_logits(self):
         feature = SimpleNamespace(X=torch.randn(3, 1, 256, requires_grad=True), records=pu_records(count=3))

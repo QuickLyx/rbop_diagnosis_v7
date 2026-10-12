@@ -79,7 +79,7 @@ def aggregate_units(record_predictions):
                 raise ValueError(f"PU 单元记录缺失、重复或通道错误：{unit}")
         elif first["dataset"] == "cwru":
             if (channels != Counter({"DE": 1, "FE": 1}) or first["label"] is None
-                    or any(unit != f"{row['source']}/{Path(row['path']).name}"
+                    or any(unit != row['source'] + '/' + row['path'].replace('\\', '/').rsplit('/', 1)[-1]
                            or row["record_key"] != f"{unit}::{row['channel']}" for row in rows)):
                 raise ValueError(f"CWRU 单元记录缺失或通道错误：{unit}")
         else:

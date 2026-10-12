@@ -84,6 +84,8 @@ def _validate_cache(dataset, X, payload):
         seen.add(key)
         if record["dataset"] != dataset or not isinstance(record["path"], str):
             raise ValueError(f"缓存记录数据集或路径无效：{key}")
+        # 冻结缓存生成于 Windows，身份校验只取跨平台文件名，不访问原路径。
+        filename = record["path"].replace("\\", "/").rsplit("/", 1)[-1]
         label = record["label"]
         if label is not None and (type(label) is not int or label not in range(4)):
             raise ValueError(f"缓存记录标签无效：{key}")
@@ -97,7 +99,7 @@ def _validate_cache(dataset, X, payload):
             source, channel = record["source"], record["channel"]
             if (source not in cwru.SOURCES or channel not in cwru.ALL_CHANNELS
                     or label is None or record["src_fs"] != cwru._v6ds.RAW_FS[source]
-                    or unit != f"{source}/{Path(record['path']).name}"
+                    or unit != f"{source}/{filename}"
                     or key != f"{unit}::{channel}"):
                 raise ValueError(f"CWRU 缓存记录身份无效：{key}")
         else:
@@ -106,7 +108,7 @@ def _validate_cache(dataset, X, payload):
             if (bearing is None or condition not in CONDITIONS or record["src_fs"] != 64000
                     or record["source"] != "paderborn" or record["channel"] != "vibration_1"
                     or unit != f"{bearing_id}/{condition}"
-                    or key != f"{bearing_id}/{Path(record['path']).name}::vibration_1"
+                    or key != f"{bearing_id}/{filename}::vibration_1"
                     or label != bearing.label or record["origin"] != bearing.origin
                     or record["severity"] != bearing.severity):
                 raise ValueError(f"PU 缓存记录身份或真值无效：{key}")

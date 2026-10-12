@@ -2,7 +2,7 @@
 """数据层小样本检查：不训练、不重估 BN、不生成全量缓存。"""
 from dataclasses import FrozenInstanceError, asdict, replace
 import json
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 import sys
 import tempfile
 from types import SimpleNamespace
@@ -110,9 +110,17 @@ class DataTests(unittest.TestCase):
 
     def test_pu_counts_and_non_overwriting_drop_ledger(self):
         with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "extracted"
+            # 这里只枚举文件名，临时空文件即可覆盖完整口径与 KA08 丢弃凭据。
+            for bearing_id in BY_ID:
+                folder = root / bearing_id
+                folder.mkdir(parents=True)
+                for condition in CONDITIONS:
+                    for rep in range(1, 21):
+                        (folder / f"{condition}_{bearing_id}_{rep}.mat").touch()
             dropped_path = Path(directory) / "dropped.json"
-            primary = paderborn.enumerate_recordings(dropped_path=dropped_path)
-            all_records = paderborn.enumerate_recordings(include_kb=True, dropped_path=dropped_path)
+            primary = paderborn.enumerate_recordings(root, dropped_path=dropped_path)
+            all_records = paderborn.enumerate_recordings(root, include_kb=True, dropped_path=dropped_path)
             self.assertEqual(len(primary), 2319)
             self.assertEqual(len(all_records), 2559)
             self.assertEqual(len({r.unit_key for r in primary}), 116)
@@ -124,8 +132,37 @@ class DataTests(unittest.TestCase):
             self.assertEqual(sum(r.unit_key == "KA08/N15_M01_F10" for r in all_records), 19)
             dropped_path.write_text("[]", encoding="utf-8")
             with self.assertRaises(FileExistsError):
-                paderborn.enumerate_recordings(dropped_path=dropped_path)
+                paderborn.enumerate_recordings(root, dropped_path=dropped_path)
             self.assertEqual(dropped_path.read_text(encoding="utf-8"), "[]")
+
+    def test_cache_identity_accepts_windows_and_posix_paths_without_weakening_checks(self):
+        condition = next(iter(CONDITIONS))
+        bearing = BY_ID["K001"]
+        target = []
+        for index in range(20):
+            filename = f"{condition}_K001_{index + 1}.mat"
+            target.append(Recording(f"K001/{filename}::vibration_1", f"K001/{condition}",
+                                    Path(filename), "paderborn", "vibration_1", bearing.label,
+                                    64000, "paderborn", "K001", condition, bearing.origin, bearing.severity))
+        for dataset, recordings, counts in (
+                ("cwru", cwru.enumerate_recordings()[:2], {"records": 2, "units": 1, "windows": 2}),
+                ("paderborn", target, {"records": 20, "units": 1, "windows": 20,
+                                      "primary_records": 20, "primary_units": 1, "primary_windows": 20})):
+            X = np.zeros((len(recordings), 1, 256), dtype=np.float32)
+            for prefix in ("E:\\冻结缓存\\", "cache/"):
+                records = [{**asdict(record), "path": prefix + record.path.name,
+                            "start": index, "stop": index + 1}
+                           for index, record in enumerate(recordings)]
+                payload = {"version": features.CACHE_VERSION, "dataset": dataset,
+                           "script": "features.py", "repr_config": build_repr_config(),
+                           "records": records, "counts": counts}
+                with self.subTest(dataset=dataset, prefix=prefix), \
+                        patch.dict(features.EXPECTED_COUNTS, {dataset: counts}), \
+                        patch.object(features, "Path", PurePosixPath):
+                    self.assertEqual(len(features._validate_cache(dataset, X, payload).records), len(records))
+                    records[0]["path"] = prefix + "wrong.mat"
+                    with self.assertRaisesRegex(ValueError, "身份"):
+                        features._validate_cache(dataset, X, payload)
 
     def test_small_cache_roundtrip_rejects_stale_or_corrupt_metadata(self):
         records = cwru.enumerate_recordings()[:2]

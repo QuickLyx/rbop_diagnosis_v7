@@ -15,6 +15,7 @@ outputs/**/train/
 # 特征缓存：cwru.npy（67MB）与 paderborn 分卷直接入库；
 # paderborn.npy（234MB）超 GitHub 100MB 限制不入库，云端由 run_cloud.sh 从分卷自动合并
 outputs/features/paderborn.npy
+outputs/features/paderborn.npy.tmp
 
 # 杂项
 __pycache__/

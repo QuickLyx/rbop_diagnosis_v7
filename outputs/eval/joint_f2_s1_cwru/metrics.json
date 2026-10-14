@@ -1,0 +1,6389 @@
+{
+  "record_level": {
+    "n": 306,
+    "total_count": 306,
+    "unlabeled_count": 0,
+    "E1": {
+      "n": 306,
+      "accuracy": 0.9901960784313726,
+      "macro_f1": 0.9923606431040722,
+      "macro_recall": 0.9932810245310245,
+      "recall": [
+        1.0,
+        1.0,
+        0.9861111111111112,
+        0.987012987012987
+      ],
+      "confusion": [
+        [
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          72,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          71,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          152
+        ]
+      ],
+      "support": [
+        8,
+        72,
+        72,
+        154
+      ],
+      "classes": [
+        "Normal",
+        "Ball",
+        "IR",
+        "OR"
+      ],
+      "averaged_classes": [
+        "Normal",
+        "Ball",
+        "IR",
+        "OR"
+      ]
+    },
+    "E2": {
+      "n": 306,
+      "accuracy": 0.7581699346405228,
+      "macro_f1": 0.6820398351648351,
+      "macro_recall": 0.7449044011544012,
+      "recall": [
+        1.0,
+        0.0,
+        0.9861111111111112,
+        0.9935064935064936
+      ],
+      "confusion": [
+        [
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          16,
+          56
+        ],
+        [
+          0,
+          0,
+          71,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          153
+        ]
+      ],
+      "support": [
+        8,
+        72,
+        72,
+        154
+      ],
+      "classes": [
+        "Normal",
+        "Ball",
+        "IR",
+        "OR"
+      ],
+      "averaged_classes": [
+        "Normal",
+        "Ball",
+        "IR",
+        "OR"
+      ]
+    },
+    "P_ball": 0.238562091503268,
+    "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母",
+    "source": {
+      "n": 306,
+      "total_count": 306,
+      "unlabeled_count": 0,
+      "E1": {
+        "n": 306,
+        "accuracy": 0.9901960784313726,
+        "macro_f1": 0.9923606431040722,
+        "macro_recall": 0.9932810245310245,
+        "recall": [
+          1.0,
+          1.0,
+          0.9861111111111112,
+          0.987012987012987
+        ],
+        "confusion": [
+          [
+            8,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            72,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            71,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            152
+          ]
+        ],
+        "support": [
+          8,
+          72,
+          72,
+          154
+        ],
+        "classes": [
+          "Normal",
+          "Ball",
+          "IR",
+          "OR"
+        ],
+        "averaged_classes": [
+          "Normal",
+          "Ball",
+          "IR",
+          "OR"
+        ]
+      },
+      "E2": {
+        "n": 306,
+        "accuracy": 0.7581699346405228,
+        "macro_f1": 0.6820398351648351,
+        "macro_recall": 0.7449044011544012,
+        "recall": [
+          1.0,
+          0.0,
+          0.9861111111111112,
+          0.9935064935064936
+        ],
+        "confusion": [
+          [
+            8,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            16,
+            56
+          ],
+          [
+            0,
+            0,
+            71,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            153
+          ]
+        ],
+        "support": [
+          8,
+          72,
+          72,
+          154
+        ],
+        "classes": [
+          "Normal",
+          "Ball",
+          "IR",
+          "OR"
+        ],
+        "averaged_classes": [
+          "Normal",
+          "Ball",
+          "IR",
+          "OR"
+        ]
+      },
+      "P_ball": 0.238562091503268,
+      "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+    },
+    "source_by_source": {
+      "12k_DE": {
+        "n": 104,
+        "total_count": 104,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 104,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            null,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              24,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              24,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              56
+            ]
+          ],
+          "support": [
+            0,
+            24,
+            24,
+            56
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 104,
+          "accuracy": 0.7692307692307693,
+          "macro_f1": 0.6030738221214412,
+          "macro_recall": 0.6666666666666666,
+          "recall": [
+            null,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              23
+            ],
+            [
+              0,
+              0,
+              24,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              56
+            ]
+          ],
+          "support": [
+            0,
+            24,
+            24,
+            56
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.23076923076923078,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      },
+      "12k_FE": {
+        "n": 90,
+        "total_count": 90,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 90,
+          "accuracy": 0.9666666666666667,
+          "macro_f1": 0.9672601972515914,
+          "macro_recall": 0.9702380952380952,
+          "recall": [
+            null,
+            1.0,
+            0.9583333333333334,
+            0.9523809523809523
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              24,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              23,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              40
+            ]
+          ],
+          "support": [
+            0,
+            24,
+            24,
+            42
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 90,
+          "accuracy": 0.7111111111111111,
+          "macro_f1": 0.5451001240474924,
+          "macro_recall": 0.6448412698412699,
+          "recall": [
+            null,
+            0.0,
+            0.9583333333333334,
+            0.9761904761904762
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              9,
+              15
+            ],
+            [
+              0,
+              0,
+              23,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              41
+            ]
+          ],
+          "support": [
+            0,
+            24,
+            24,
+            42
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.2777777777777778,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      },
+      "48k_DE": {
+        "n": 104,
+        "total_count": 104,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 104,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            null,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              24,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              24,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              56
+            ]
+          ],
+          "support": [
+            0,
+            24,
+            24,
+            56
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 104,
+          "accuracy": 0.7692307692307693,
+          "macro_f1": 0.5834757834757834,
+          "macro_recall": 0.6666666666666666,
+          "recall": [
+            null,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              18
+            ],
+            [
+              0,
+              0,
+              24,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              56
+            ]
+          ],
+          "support": [
+            0,
+            24,
+            24,
+            56
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.23076923076923078,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      },
+      "Normal": {
+        "n": 8,
+        "total_count": 8,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 8,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            1.0,
+            null,
+            null,
+            null
+          ],
+          "confusion": [
+            [
+              8,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "support": [
+            8,
+            0,
+            0,
+            0
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal"
+          ]
+        },
+        "E2": {
+          "n": 8,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            1.0,
+            null,
+            null,
+            null
+          ],
+          "confusion": [
+            [
+              8,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "support": [
+            8,
+            0,
+            0,
+            0
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal"
+          ]
+        },
+        "P_ball": 0.0,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      }
+    },
+    "source_by_channel": {
+      "DE": {
+        "n": 153,
+        "total_count": 153,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 153,
+          "accuracy": 0.9934640522875817,
+          "macro_f1": 0.9949413555376488,
+          "macro_recall": 0.9967532467532467,
+          "recall": [
+            1.0,
+            1.0,
+            1.0,
+            0.987012987012987
+          ],
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              36,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              36,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              76
+            ]
+          ],
+          "support": [
+            4,
+            36,
+            36,
+            77
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 153,
+          "accuracy": 0.7647058823529411,
+          "macro_f1": 0.6900083612040134,
+          "macro_recall": 0.75,
+          "recall": [
+            1.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              30
+            ],
+            [
+              0,
+              0,
+              36,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              77
+            ]
+          ],
+          "support": [
+            4,
+            36,
+            36,
+            77
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.24183006535947713,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      },
+      "FE": {
+        "n": 153,
+        "total_count": 153,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 153,
+          "accuracy": 0.9869281045751634,
+          "macro_f1": 0.9898088023088023,
+          "macro_recall": 0.9898088023088023,
+          "recall": [
+            1.0,
+            1.0,
+            0.9722222222222222,
+            0.987012987012987
+          ],
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              36,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              35,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              76
+            ]
+          ],
+          "support": [
+            4,
+            36,
+            36,
+            77
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 153,
+          "accuracy": 0.7516339869281046,
+          "macro_f1": 0.6745257452574526,
+          "macro_recall": 0.7398088023088023,
+          "recall": [
+            1.0,
+            0.0,
+            0.9722222222222222,
+            0.987012987012987
+          ],
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              10,
+              26
+            ],
+            [
+              0,
+              0,
+              35,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              76
+            ]
+          ],
+          "support": [
+            4,
+            36,
+            36,
+            77
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.23529411764705882,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      }
+    },
+    "groups": {
+      "condition": {},
+      "origin": {},
+      "seen_unseen_bearing": {
+        "seen": {
+          "n": 0,
+          "total_count": 0,
+          "unlabeled_count": 0,
+          "E1": {
+            "n": 0,
+            "accuracy": null,
+            "macro_f1": null,
+            "macro_recall": null,
+            "recall": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "support": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": []
+          },
+          "E2": {
+            "n": 0,
+            "accuracy": null,
+            "macro_f1": null,
+            "macro_recall": null,
+            "recall": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "support": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": []
+          },
+          "P_ball": null,
+          "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+        },
+        "unseen": {
+          "n": 0,
+          "total_count": 0,
+          "unlabeled_count": 0,
+          "E1": {
+            "n": 0,
+            "accuracy": null,
+            "macro_f1": null,
+            "macro_recall": null,
+            "recall": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "support": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": []
+          },
+          "E2": {
+            "n": 0,
+            "accuracy": null,
+            "macro_f1": null,
+            "macro_recall": null,
+            "recall": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "support": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": []
+          },
+          "P_ball": null,
+          "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+        }
+      }
+    },
+    "KB": {
+      "n": 0,
+      "prediction_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prediction_fractions": null,
+      "by_bearing": {},
+      "note": "KB 无单类真值，不入 E1/E2/P_ball 分母；官方主导指派仅作参考"
+    }
+  },
+  "unit_level": {
+    "n": 153,
+    "total_count": 153,
+    "unlabeled_count": 0,
+    "E1": {
+      "n": 153,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "macro_recall": 1.0,
+      "recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          36,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          36,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          77
+        ]
+      ],
+      "support": [
+        4,
+        36,
+        36,
+        77
+      ],
+      "classes": [
+        "Normal",
+        "Ball",
+        "IR",
+        "OR"
+      ],
+      "averaged_classes": [
+        "Normal",
+        "Ball",
+        "IR",
+        "OR"
+      ]
+    },
+    "E2": {
+      "n": 153,
+      "accuracy": 0.7647058823529411,
+      "macro_f1": 0.6865384615384615,
+      "macro_recall": 0.75,
+      "recall": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          28
+        ],
+        [
+          0,
+          0,
+          36,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          77
+        ]
+      ],
+      "support": [
+        4,
+        36,
+        36,
+        77
+      ],
+      "classes": [
+        "Normal",
+        "Ball",
+        "IR",
+        "OR"
+      ],
+      "averaged_classes": [
+        "Normal",
+        "Ball",
+        "IR",
+        "OR"
+      ]
+    },
+    "P_ball": 0.23529411764705882,
+    "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母",
+    "source": {
+      "n": 153,
+      "total_count": 153,
+      "unlabeled_count": 0,
+      "E1": {
+        "n": 153,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "macro_recall": 1.0,
+        "recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion": [
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            36,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            36,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            77
+          ]
+        ],
+        "support": [
+          4,
+          36,
+          36,
+          77
+        ],
+        "classes": [
+          "Normal",
+          "Ball",
+          "IR",
+          "OR"
+        ],
+        "averaged_classes": [
+          "Normal",
+          "Ball",
+          "IR",
+          "OR"
+        ]
+      },
+      "E2": {
+        "n": 153,
+        "accuracy": 0.7647058823529411,
+        "macro_f1": 0.6865384615384615,
+        "macro_recall": 0.75,
+        "recall": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confusion": [
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            8,
+            28
+          ],
+          [
+            0,
+            0,
+            36,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            77
+          ]
+        ],
+        "support": [
+          4,
+          36,
+          36,
+          77
+        ],
+        "classes": [
+          "Normal",
+          "Ball",
+          "IR",
+          "OR"
+        ],
+        "averaged_classes": [
+          "Normal",
+          "Ball",
+          "IR",
+          "OR"
+        ]
+      },
+      "P_ball": 0.23529411764705882,
+      "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+    },
+    "source_by_source": {
+      "12k_DE": {
+        "n": 52,
+        "total_count": 52,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 52,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            null,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              12,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              12,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              28
+            ]
+          ],
+          "support": [
+            0,
+            12,
+            12,
+            28
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 52,
+          "accuracy": 0.7692307692307693,
+          "macro_f1": 0.6078431372549019,
+          "macro_recall": 0.6666666666666666,
+          "recall": [
+            null,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              12
+            ],
+            [
+              0,
+              0,
+              12,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              28
+            ]
+          ],
+          "support": [
+            0,
+            12,
+            12,
+            28
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.23076923076923078,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      },
+      "12k_FE": {
+        "n": 45,
+        "total_count": 45,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 45,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            null,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              12,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              12,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              21
+            ]
+          ],
+          "support": [
+            0,
+            12,
+            12,
+            21
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 45,
+          "accuracy": 0.7333333333333333,
+          "macro_f1": 0.5615763546798029,
+          "macro_recall": 0.6666666666666666,
+          "recall": [
+            null,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              7
+            ],
+            [
+              0,
+              0,
+              12,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              21
+            ]
+          ],
+          "support": [
+            0,
+            12,
+            12,
+            21
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.26666666666666666,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      },
+      "48k_DE": {
+        "n": 52,
+        "total_count": 52,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 52,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            null,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              12,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              12,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              28
+            ]
+          ],
+          "support": [
+            0,
+            12,
+            12,
+            28
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 52,
+          "accuracy": 0.7692307692307693,
+          "macro_f1": 0.5834757834757834,
+          "macro_recall": 0.6666666666666666,
+          "recall": [
+            null,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              9
+            ],
+            [
+              0,
+              0,
+              12,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              28
+            ]
+          ],
+          "support": [
+            0,
+            12,
+            12,
+            28
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.23076923076923078,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      },
+      "Normal": {
+        "n": 4,
+        "total_count": 4,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 4,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            1.0,
+            null,
+            null,
+            null
+          ],
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "support": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal"
+          ]
+        },
+        "E2": {
+          "n": 4,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            1.0,
+            null,
+            null,
+            null
+          ],
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "support": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal"
+          ]
+        },
+        "P_ball": 0.0,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+      }
+    },
+    "source_by_channel": {},
+    "groups": {
+      "condition": {},
+      "origin": {},
+      "seen_unseen_bearing": {
+        "seen": {
+          "n": 0,
+          "total_count": 0,
+          "unlabeled_count": 0,
+          "E1": {
+            "n": 0,
+            "accuracy": null,
+            "macro_f1": null,
+            "macro_recall": null,
+            "recall": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "support": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": []
+          },
+          "E2": {
+            "n": 0,
+            "accuracy": null,
+            "macro_f1": null,
+            "macro_recall": null,
+            "recall": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "support": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": []
+          },
+          "P_ball": null,
+          "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+        },
+        "unseen": {
+          "n": 0,
+          "total_count": 0,
+          "unlabeled_count": 0,
+          "E1": {
+            "n": 0,
+            "accuracy": null,
+            "macro_f1": null,
+            "macro_recall": null,
+            "recall": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "support": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": []
+          },
+          "E2": {
+            "n": 0,
+            "accuracy": null,
+            "macro_f1": null,
+            "macro_recall": null,
+            "recall": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "confusion": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "support": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": []
+          },
+          "P_ball": null,
+          "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+        }
+      }
+    },
+    "KB": {
+      "n": 0,
+      "prediction_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prediction_fractions": null,
+      "by_bearing": {},
+      "note": "KB 无单类真值，不入 E1/E2/P_ball 分母；官方主导指派仅作参考"
+    }
+  },
+  "D3": {
+    "n": 0,
+    "required_n": 116,
+    "E1": null,
+    "E2": null,
+    "E1_min": 0.8,
+    "E2_min": 0.9,
+    "passed": null,
+    "literature_anchor_E2": 0.75,
+    "interpretation": "source_all_descriptive_contains_training_units",
+    "note": "全 116 单元真实支持类宏平均；含监督池时仅描述，K116 仅 in_sample"
+  },
+  "splits": {
+    "source_all": {
+      "requested_unit_count": 153,
+      "supervised_pool_overlap_unit_count": 0,
+      "interpretation": "source_all_descriptive_contains_training_units",
+      "unit_level": {
+        "n": 153,
+        "total_count": 153,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 153,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              36,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              36,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              77
+            ]
+          ],
+          "support": [
+            4,
+            36,
+            36,
+            77
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 153,
+          "accuracy": 0.7647058823529411,
+          "macro_f1": 0.6865384615384615,
+          "macro_recall": 0.75,
+          "recall": [
+            1.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              8,
+              28
+            ],
+            [
+              0,
+              0,
+              36,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              77
+            ]
+          ],
+          "support": [
+            4,
+            36,
+            36,
+            77
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.23529411764705882,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母",
+        "source": {
+          "n": 153,
+          "total_count": 153,
+          "unlabeled_count": 0,
+          "E1": {
+            "n": 153,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "macro_recall": 1.0,
+            "recall": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "confusion": [
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                36,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                36,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                77
+              ]
+            ],
+            "support": [
+              4,
+              36,
+              36,
+              77
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ]
+          },
+          "E2": {
+            "n": 153,
+            "accuracy": 0.7647058823529411,
+            "macro_f1": 0.6865384615384615,
+            "macro_recall": 0.75,
+            "recall": [
+              1.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "confusion": [
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                28
+              ],
+              [
+                0,
+                0,
+                36,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                77
+              ]
+            ],
+            "support": [
+              4,
+              36,
+              36,
+              77
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ]
+          },
+          "P_ball": 0.23529411764705882,
+          "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+        },
+        "source_by_source": {
+          "12k_DE": {
+            "n": 52,
+            "total_count": 52,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 52,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  12,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  12,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  28
+                ]
+              ],
+              "support": [
+                0,
+                12,
+                12,
+                28
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 52,
+              "accuracy": 0.7692307692307693,
+              "macro_f1": 0.6078431372549019,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  12
+                ],
+                [
+                  0,
+                  0,
+                  12,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  28
+                ]
+              ],
+              "support": [
+                0,
+                12,
+                12,
+                28
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.23076923076923078,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "12k_FE": {
+            "n": 45,
+            "total_count": 45,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 45,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  12,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  12,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  21
+                ]
+              ],
+              "support": [
+                0,
+                12,
+                12,
+                21
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 45,
+              "accuracy": 0.7333333333333333,
+              "macro_f1": 0.5615763546798029,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  5,
+                  7
+                ],
+                [
+                  0,
+                  0,
+                  12,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  21
+                ]
+              ],
+              "support": [
+                0,
+                12,
+                12,
+                21
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.26666666666666666,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "48k_DE": {
+            "n": 52,
+            "total_count": 52,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 52,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  12,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  12,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  28
+                ]
+              ],
+              "support": [
+                0,
+                12,
+                12,
+                28
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 52,
+              "accuracy": 0.7692307692307693,
+              "macro_f1": 0.5834757834757834,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  3,
+                  9
+                ],
+                [
+                  0,
+                  0,
+                  12,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  28
+                ]
+              ],
+              "support": [
+                0,
+                12,
+                12,
+                28
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.23076923076923078,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "Normal": {
+            "n": 4,
+            "total_count": 4,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 4,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                1.0,
+                null,
+                null,
+                null
+              ],
+              "confusion": [
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "support": [
+                4,
+                0,
+                0,
+                0
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal"
+              ]
+            },
+            "E2": {
+              "n": 4,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                1.0,
+                null,
+                null,
+                null
+              ],
+              "confusion": [
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "support": [
+                4,
+                0,
+                0,
+                0
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal"
+              ]
+            },
+            "P_ball": 0.0,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          }
+        },
+        "source_by_channel": {},
+        "groups": {
+          "condition": {},
+          "origin": {},
+          "seen_unseen_bearing": {
+            "seen": {
+              "n": 0,
+              "total_count": 0,
+              "unlabeled_count": 0,
+              "E1": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "E2": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "P_ball": null,
+              "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+            },
+            "unseen": {
+              "n": 0,
+              "total_count": 0,
+              "unlabeled_count": 0,
+              "E1": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "E2": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "P_ball": null,
+              "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+            }
+          }
+        },
+        "KB": {
+          "n": 0,
+          "prediction_counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "prediction_fractions": null,
+          "by_bearing": {},
+          "note": "KB 无单类真值，不入 E1/E2/P_ball 分母；官方主导指派仅作参考"
+        }
+      },
+      "record_level": {
+        "n": 306,
+        "total_count": 306,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 306,
+          "accuracy": 0.9901960784313726,
+          "macro_f1": 0.9923606431040722,
+          "macro_recall": 0.9932810245310245,
+          "recall": [
+            1.0,
+            1.0,
+            0.9861111111111112,
+            0.987012987012987
+          ],
+          "confusion": [
+            [
+              8,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              72,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              71,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              152
+            ]
+          ],
+          "support": [
+            8,
+            72,
+            72,
+            154
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 306,
+          "accuracy": 0.7581699346405228,
+          "macro_f1": 0.6820398351648351,
+          "macro_recall": 0.7449044011544012,
+          "recall": [
+            1.0,
+            0.0,
+            0.9861111111111112,
+            0.9935064935064936
+          ],
+          "confusion": [
+            [
+              8,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              16,
+              56
+            ],
+            [
+              0,
+              0,
+              71,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              153
+            ]
+          ],
+          "support": [
+            8,
+            72,
+            72,
+            154
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.238562091503268,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母",
+        "source": {
+          "n": 306,
+          "total_count": 306,
+          "unlabeled_count": 0,
+          "E1": {
+            "n": 306,
+            "accuracy": 0.9901960784313726,
+            "macro_f1": 0.9923606431040722,
+            "macro_recall": 0.9932810245310245,
+            "recall": [
+              1.0,
+              1.0,
+              0.9861111111111112,
+              0.987012987012987
+            ],
+            "confusion": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                72,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                71,
+                1
+              ],
+              [
+                0,
+                1,
+                1,
+                152
+              ]
+            ],
+            "support": [
+              8,
+              72,
+              72,
+              154
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ]
+          },
+          "E2": {
+            "n": 306,
+            "accuracy": 0.7581699346405228,
+            "macro_f1": 0.6820398351648351,
+            "macro_recall": 0.7449044011544012,
+            "recall": [
+              1.0,
+              0.0,
+              0.9861111111111112,
+              0.9935064935064936
+            ],
+            "confusion": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                16,
+                56
+              ],
+              [
+                0,
+                0,
+                71,
+                1
+              ],
+              [
+                0,
+                0,
+                1,
+                153
+              ]
+            ],
+            "support": [
+              8,
+              72,
+              72,
+              154
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ]
+          },
+          "P_ball": 0.238562091503268,
+          "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+        },
+        "source_by_source": {
+          "12k_DE": {
+            "n": 104,
+            "total_count": 104,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 104,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  24,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  24,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  56
+                ]
+              ],
+              "support": [
+                0,
+                24,
+                24,
+                56
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 104,
+              "accuracy": 0.7692307692307693,
+              "macro_f1": 0.6030738221214412,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  23
+                ],
+                [
+                  0,
+                  0,
+                  24,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  56
+                ]
+              ],
+              "support": [
+                0,
+                24,
+                24,
+                56
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.23076923076923078,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "12k_FE": {
+            "n": 90,
+            "total_count": 90,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 90,
+              "accuracy": 0.9666666666666667,
+              "macro_f1": 0.9672601972515914,
+              "macro_recall": 0.9702380952380952,
+              "recall": [
+                null,
+                1.0,
+                0.9583333333333334,
+                0.9523809523809523
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  24,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  23,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  40
+                ]
+              ],
+              "support": [
+                0,
+                24,
+                24,
+                42
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 90,
+              "accuracy": 0.7111111111111111,
+              "macro_f1": 0.5451001240474924,
+              "macro_recall": 0.6448412698412699,
+              "recall": [
+                null,
+                0.0,
+                0.9583333333333334,
+                0.9761904761904762
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  9,
+                  15
+                ],
+                [
+                  0,
+                  0,
+                  23,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  41
+                ]
+              ],
+              "support": [
+                0,
+                24,
+                24,
+                42
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.2777777777777778,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "48k_DE": {
+            "n": 104,
+            "total_count": 104,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 104,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  24,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  24,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  56
+                ]
+              ],
+              "support": [
+                0,
+                24,
+                24,
+                56
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 104,
+              "accuracy": 0.7692307692307693,
+              "macro_f1": 0.5834757834757834,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  6,
+                  18
+                ],
+                [
+                  0,
+                  0,
+                  24,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  56
+                ]
+              ],
+              "support": [
+                0,
+                24,
+                24,
+                56
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.23076923076923078,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "Normal": {
+            "n": 8,
+            "total_count": 8,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 8,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                1.0,
+                null,
+                null,
+                null
+              ],
+              "confusion": [
+                [
+                  8,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "support": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal"
+              ]
+            },
+            "E2": {
+              "n": 8,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                1.0,
+                null,
+                null,
+                null
+              ],
+              "confusion": [
+                [
+                  8,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "support": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal"
+              ]
+            },
+            "P_ball": 0.0,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          }
+        },
+        "source_by_channel": {
+          "DE": {
+            "n": 153,
+            "total_count": 153,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 153,
+              "accuracy": 0.9934640522875817,
+              "macro_f1": 0.9949413555376488,
+              "macro_recall": 0.9967532467532467,
+              "recall": [
+                1.0,
+                1.0,
+                1.0,
+                0.987012987012987
+              ],
+              "confusion": [
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  36,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  36,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  76
+                ]
+              ],
+              "support": [
+                4,
+                36,
+                36,
+                77
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 153,
+              "accuracy": 0.7647058823529411,
+              "macro_f1": 0.6900083612040134,
+              "macro_recall": 0.75,
+              "recall": [
+                1.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  6,
+                  30
+                ],
+                [
+                  0,
+                  0,
+                  36,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  77
+                ]
+              ],
+              "support": [
+                4,
+                36,
+                36,
+                77
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.24183006535947713,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "FE": {
+            "n": 153,
+            "total_count": 153,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 153,
+              "accuracy": 0.9869281045751634,
+              "macro_f1": 0.9898088023088023,
+              "macro_recall": 0.9898088023088023,
+              "recall": [
+                1.0,
+                1.0,
+                0.9722222222222222,
+                0.987012987012987
+              ],
+              "confusion": [
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  36,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  35,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  76
+                ]
+              ],
+              "support": [
+                4,
+                36,
+                36,
+                77
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 153,
+              "accuracy": 0.7516339869281046,
+              "macro_f1": 0.6745257452574526,
+              "macro_recall": 0.7398088023088023,
+              "recall": [
+                1.0,
+                0.0,
+                0.9722222222222222,
+                0.987012987012987
+              ],
+              "confusion": [
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  10,
+                  26
+                ],
+                [
+                  0,
+                  0,
+                  35,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  76
+                ]
+              ],
+              "support": [
+                4,
+                36,
+                36,
+                77
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.23529411764705882,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          }
+        },
+        "groups": {
+          "condition": {},
+          "origin": {},
+          "seen_unseen_bearing": {
+            "seen": {
+              "n": 0,
+              "total_count": 0,
+              "unlabeled_count": 0,
+              "E1": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "E2": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "P_ball": null,
+              "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+            },
+            "unseen": {
+              "n": 0,
+              "total_count": 0,
+              "unlabeled_count": 0,
+              "E1": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "E2": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "P_ball": null,
+              "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+            }
+          }
+        },
+        "KB": {
+          "n": 0,
+          "prediction_counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "prediction_fractions": null,
+          "by_bearing": {},
+          "note": "KB 无单类真值，不入 E1/E2/P_ball 分母；官方主导指派仅作参考"
+        }
+      }
+    },
+    "source_validation": {
+      "requested_unit_count": 38,
+      "supervised_pool_overlap_unit_count": 0,
+      "interpretation": "source_validation",
+      "unit_level": {
+        "n": 38,
+        "total_count": 38,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 38,
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "macro_recall": 1.0,
+          "recall": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              9,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              9,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              19
+            ]
+          ],
+          "support": [
+            1,
+            9,
+            9,
+            19
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 38,
+          "accuracy": 0.7631578947368421,
+          "macro_f1": 0.6801948051948052,
+          "macro_recall": 0.75,
+          "recall": [
+            1.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              6
+            ],
+            [
+              0,
+              0,
+              9,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              19
+            ]
+          ],
+          "support": [
+            1,
+            9,
+            9,
+            19
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.23684210526315788,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母",
+        "source": {
+          "n": 38,
+          "total_count": 38,
+          "unlabeled_count": 0,
+          "E1": {
+            "n": 38,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "macro_recall": 1.0,
+            "recall": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "confusion": [
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                9,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                9,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                19
+              ]
+            ],
+            "support": [
+              1,
+              9,
+              9,
+              19
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ]
+          },
+          "E2": {
+            "n": 38,
+            "accuracy": 0.7631578947368421,
+            "macro_f1": 0.6801948051948052,
+            "macro_recall": 0.75,
+            "recall": [
+              1.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "confusion": [
+              [
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                3,
+                6
+              ],
+              [
+                0,
+                0,
+                9,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                19
+              ]
+            ],
+            "support": [
+              1,
+              9,
+              9,
+              19
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ]
+          },
+          "P_ball": 0.23684210526315788,
+          "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+        },
+        "source_by_source": {
+          "12k_DE": {
+            "n": 14,
+            "total_count": 14,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 14,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  9
+                ]
+              ],
+              "support": [
+                0,
+                3,
+                2,
+                9
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 14,
+              "accuracy": 0.7857142857142857,
+              "macro_f1": 0.6190476190476191,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  0,
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  9
+                ]
+              ],
+              "support": [
+                0,
+                3,
+                2,
+                9
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.21428571428571427,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "12k_FE": {
+            "n": 12,
+            "total_count": 12,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 12,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  2,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  4,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  6
+                ]
+              ],
+              "support": [
+                0,
+                2,
+                4,
+                6
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 12,
+              "accuracy": 0.8333333333333334,
+              "macro_f1": 0.603988603988604,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  4,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  6
+                ]
+              ],
+              "support": [
+                0,
+                2,
+                4,
+                6
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.16666666666666666,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "48k_DE": {
+            "n": 11,
+            "total_count": 11,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 11,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  4,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  3,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  4
+                ]
+              ],
+              "support": [
+                0,
+                4,
+                3,
+                4
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 11,
+              "accuracy": 0.6363636363636364,
+              "macro_f1": 0.5166666666666667,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  2,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  3,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  4
+                ]
+              ],
+              "support": [
+                0,
+                4,
+                3,
+                4
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.36363636363636365,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "Normal": {
+            "n": 1,
+            "total_count": 1,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                1.0,
+                null,
+                null,
+                null
+              ],
+              "confusion": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "support": [
+                1,
+                0,
+                0,
+                0
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal"
+              ]
+            },
+            "E2": {
+              "n": 1,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                1.0,
+                null,
+                null,
+                null
+              ],
+              "confusion": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "support": [
+                1,
+                0,
+                0,
+                0
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal"
+              ]
+            },
+            "P_ball": 0.0,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          }
+        },
+        "source_by_channel": {},
+        "groups": {
+          "condition": {},
+          "origin": {},
+          "seen_unseen_bearing": {
+            "seen": {
+              "n": 0,
+              "total_count": 0,
+              "unlabeled_count": 0,
+              "E1": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "E2": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "P_ball": null,
+              "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+            },
+            "unseen": {
+              "n": 0,
+              "total_count": 0,
+              "unlabeled_count": 0,
+              "E1": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "E2": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "P_ball": null,
+              "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+            }
+          }
+        },
+        "KB": {
+          "n": 0,
+          "prediction_counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "prediction_fractions": null,
+          "by_bearing": {},
+          "note": "KB 无单类真值，不入 E1/E2/P_ball 分母；官方主导指派仅作参考"
+        }
+      },
+      "record_level": {
+        "n": 76,
+        "total_count": 76,
+        "unlabeled_count": 0,
+        "E1": {
+          "n": 76,
+          "accuracy": 0.9605263157894737,
+          "macro_f1": 0.9693543543543544,
+          "macro_recall": 0.972953216374269,
+          "recall": [
+            1.0,
+            1.0,
+            0.9444444444444444,
+            0.9473684210526315
+          ],
+          "confusion": [
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              18,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              17,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              36
+            ]
+          ],
+          "support": [
+            2,
+            18,
+            18,
+            38
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "E2": {
+          "n": 76,
+          "accuracy": 0.7368421052631579,
+          "macro_f1": 0.6603180967655707,
+          "macro_recall": 0.72953216374269,
+          "recall": [
+            1.0,
+            0.0,
+            0.9444444444444444,
+            0.9736842105263158
+          ],
+          "confusion": [
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              7,
+              11
+            ],
+            [
+              0,
+              0,
+              17,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              37
+            ]
+          ],
+          "support": [
+            2,
+            18,
+            18,
+            38
+          ],
+          "classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ],
+          "averaged_classes": [
+            "Normal",
+            "Ball",
+            "IR",
+            "OR"
+          ]
+        },
+        "P_ball": 0.25,
+        "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母",
+        "source": {
+          "n": 76,
+          "total_count": 76,
+          "unlabeled_count": 0,
+          "E1": {
+            "n": 76,
+            "accuracy": 0.9605263157894737,
+            "macro_f1": 0.9693543543543544,
+            "macro_recall": 0.972953216374269,
+            "recall": [
+              1.0,
+              1.0,
+              0.9444444444444444,
+              0.9473684210526315
+            ],
+            "confusion": [
+              [
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                18,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                17,
+                1
+              ],
+              [
+                0,
+                1,
+                1,
+                36
+              ]
+            ],
+            "support": [
+              2,
+              18,
+              18,
+              38
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ]
+          },
+          "E2": {
+            "n": 76,
+            "accuracy": 0.7368421052631579,
+            "macro_f1": 0.6603180967655707,
+            "macro_recall": 0.72953216374269,
+            "recall": [
+              1.0,
+              0.0,
+              0.9444444444444444,
+              0.9736842105263158
+            ],
+            "confusion": [
+              [
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                7,
+                11
+              ],
+              [
+                0,
+                0,
+                17,
+                1
+              ],
+              [
+                0,
+                0,
+                1,
+                37
+              ]
+            ],
+            "support": [
+              2,
+              18,
+              18,
+              38
+            ],
+            "classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ],
+            "averaged_classes": [
+              "Normal",
+              "Ball",
+              "IR",
+              "OR"
+            ]
+          },
+          "P_ball": 0.25,
+          "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+        },
+        "source_by_source": {
+          "12k_DE": {
+            "n": 28,
+            "total_count": 28,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 28,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  4,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  18
+                ]
+              ],
+              "support": [
+                0,
+                6,
+                4,
+                18
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 28,
+              "accuracy": 0.7857142857142857,
+              "macro_f1": 0.5889792231255645,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  0,
+                  4,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  18
+                ]
+              ],
+              "support": [
+                0,
+                6,
+                4,
+                18
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.21428571428571427,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "12k_FE": {
+            "n": 24,
+            "total_count": 24,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 24,
+              "accuracy": 0.875,
+              "macro_f1": 0.877818035426731,
+              "macro_recall": 0.9027777777777778,
+              "recall": [
+                null,
+                1.0,
+                0.875,
+                0.8333333333333334
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  4,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  7,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  10
+                ]
+              ],
+              "support": [
+                0,
+                4,
+                8,
+                12
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 24,
+              "accuracy": 0.75,
+              "macro_f1": 0.5413105413105413,
+              "macro_recall": 0.5972222222222222,
+              "recall": [
+                null,
+                0.0,
+                0.875,
+                0.9166666666666666
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  2,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  7,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  11
+                ]
+              ],
+              "support": [
+                0,
+                4,
+                8,
+                12
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.20833333333333334,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "48k_DE": {
+            "n": 22,
+            "total_count": 22,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 22,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                null,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  8,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  6,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  8
+                ]
+              ],
+              "support": [
+                0,
+                8,
+                6,
+                8
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 22,
+              "accuracy": 0.6363636363636364,
+              "macro_f1": 0.5166666666666667,
+              "macro_recall": 0.6666666666666666,
+              "recall": [
+                null,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  4,
+                  4
+                ],
+                [
+                  0,
+                  0,
+                  6,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  8
+                ]
+              ],
+              "support": [
+                0,
+                8,
+                6,
+                8
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.36363636363636365,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "Normal": {
+            "n": 2,
+            "total_count": 2,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 2,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                1.0,
+                null,
+                null,
+                null
+              ],
+              "confusion": [
+                [
+                  2,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "support": [
+                2,
+                0,
+                0,
+                0
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal"
+              ]
+            },
+            "E2": {
+              "n": 2,
+              "accuracy": 1.0,
+              "macro_f1": 1.0,
+              "macro_recall": 1.0,
+              "recall": [
+                1.0,
+                null,
+                null,
+                null
+              ],
+              "confusion": [
+                [
+                  2,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "support": [
+                2,
+                0,
+                0,
+                0
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal"
+              ]
+            },
+            "P_ball": 0.0,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          }
+        },
+        "source_by_channel": {
+          "DE": {
+            "n": 38,
+            "total_count": 38,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 38,
+              "accuracy": 0.9736842105263158,
+              "macro_f1": 0.9800853485064012,
+              "macro_recall": 0.9868421052631579,
+              "recall": [
+                1.0,
+                1.0,
+                1.0,
+                0.9473684210526315
+              ],
+              "confusion": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  9,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  9,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  18
+                ]
+              ],
+              "support": [
+                1,
+                9,
+                9,
+                19
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 38,
+              "accuracy": 0.7631578947368421,
+              "macro_f1": 0.6801948051948052,
+              "macro_recall": 0.75,
+              "recall": [
+                1.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "confusion": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  3,
+                  6
+                ],
+                [
+                  0,
+                  0,
+                  9,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  19
+                ]
+              ],
+              "support": [
+                1,
+                9,
+                9,
+                19
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.2631578947368421,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          },
+          "FE": {
+            "n": 38,
+            "total_count": 38,
+            "unlabeled_count": 0,
+            "E1": {
+              "n": 38,
+              "accuracy": 0.9473684210526315,
+              "macro_f1": 0.9590643274853801,
+              "macro_recall": 0.9590643274853801,
+              "recall": [
+                1.0,
+                1.0,
+                0.8888888888888888,
+                0.9473684210526315
+              ],
+              "confusion": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  9,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  8,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  18
+                ]
+              ],
+              "support": [
+                1,
+                9,
+                9,
+                19
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "E2": {
+              "n": 38,
+              "accuracy": 0.7105263157894737,
+              "macro_f1": 0.6411205073995772,
+              "macro_recall": 0.7090643274853801,
+              "recall": [
+                1.0,
+                0.0,
+                0.8888888888888888,
+                0.9473684210526315
+              ],
+              "confusion": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  0,
+                  8,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  18
+                ]
+              ],
+              "support": [
+                1,
+                9,
+                9,
+                19
+              ],
+              "classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ],
+              "averaged_classes": [
+                "Normal",
+                "Ball",
+                "IR",
+                "OR"
+              ]
+            },
+            "P_ball": 0.23684210526315788,
+            "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+          }
+        },
+        "groups": {
+          "condition": {},
+          "origin": {},
+          "seen_unseen_bearing": {
+            "seen": {
+              "n": 0,
+              "total_count": 0,
+              "unlabeled_count": 0,
+              "E1": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "E2": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "P_ball": null,
+              "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+            },
+            "unseen": {
+              "n": 0,
+              "total_count": 0,
+              "unlabeled_count": 0,
+              "E1": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "E2": {
+                "n": 0,
+                "accuracy": null,
+                "macro_f1": null,
+                "macro_recall": null,
+                "recall": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "support": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "classes": [
+                  "Normal",
+                  "Ball",
+                  "IR",
+                  "OR"
+                ],
+                "averaged_classes": []
+              },
+              "P_ball": null,
+              "denominator": "有真实标签的全部样本；E1/E2/P_ball 使用相同分母"
+            }
+          }
+        },
+        "KB": {
+          "n": 0,
+          "prediction_counts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "prediction_fractions": null,
+          "by_bearing": {},
+          "note": "KB 无单类真值，不入 E1/E2/P_ball 分母；官方主导指派仅作参考"
+        }
+      }
+    }
+  }
+}
